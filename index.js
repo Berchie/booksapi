@@ -3,13 +3,11 @@ const bodyParser = require("body-parser");
 const { request, response } = require("express");
 const app = express();
 
+app.use(bodyParser.json());
+
 app.get("/", (request, response)=>{
   response.status(200).send("Welcome! to Express API Server");
 })
-
-
-
-
 
 
 
