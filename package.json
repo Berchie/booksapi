@@ -11,8 +11,12 @@
     "login",
     "server",
     "express",
+    "heroku",
     "authentication"
   ],
+  "engines": {
+    "node": "10.x"
+  },
   "author": "Berchie Agyemang Nti",
   "license": "ISC",
   "dependencies": {
