@@ -24,7 +24,7 @@ const getTokenFromQuery = (jwtoken) => {
   return null;
 };
 
-authorsRouter.get("/authors", (request, response) => {
+authorsRouter.get("/", (request, response) => {
   response.statusCode = 200;
   response.end(response.json(authors));
 });
